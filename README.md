@@ -30,7 +30,7 @@ Ikuti langkah-langkah berikut untuk mengonfigurasi dan menjalankan bot di server
 ### 1. Clone Repositori
 ```bash
 git clone [https://github.com/vuxoz/MarketAnalys.git](https://github.com/vuxoz/MarketAnalys.git)
-cd MarketAnalys
+cd Market
 
 ### 2. Install Dependensi Python
 ​Pastikan Python 3 dan pip sudah terinstal di VPS Anda, lalu install library yang dibutuhkan:
