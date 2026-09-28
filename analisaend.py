@@ -2,8 +2,8 @@ import base64
 
 # ================= KONFIGURASI =================
 # Anda dapat mengubah atau memasukkan kembali API / Token Anda di sini:
-TOKEN = "8426670545:AAGN5nM4bP6zTZmhdvNFGaK4tgMxpn0cyDY"
-NEWS_API_KEY = "rNcChsGOPUdrSXnsS151h0Qg941VvoHZKgEzgrLZ"
+TOKEN = "8426670545:"
+NEWS_API_KEY = "rNcChsGOPUdrSX"
 # ===============================================
 
 _enc_payload = (
