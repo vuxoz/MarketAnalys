@@ -31,3 +31,28 @@ Ikuti langkah-langkah berikut untuk mengonfigurasi dan menjalankan bot di server
 ```bash
 git clone [https://github.com/vuxoz/MarketAnalys.git](https://github.com/vuxoz/MarketAnalys.git)
 cd MarketAnalys
+
+### 2. Install Dependensi Python
+​Pastikan Python 3 dan pip sudah terinstal di VPS Anda, lalu install library yang dibutuhkan:
+```bash
+pip install --upgrade pip
+pip install python-telegram-bot requests pandas matplotlib
+
+### 3. Konfigurasi Token dan API Key
+​Buka file skrip bot utama (misal: Market.py) menggunakan text editor seperti nano:
+```bash
+nano Market.py
+
+### 4. Masukkan token Telegram dan Marketaux API Key Anda pada bagian konfigurasi di bagian atas kode:
+```bash
+# ================= KONFIGURASI =================
+TOKEN = "MASUKKAN_TOKEN_TELEGRAM_ANDA_DI_SINI"
+NEWS_API_KEY = "MASUKKAN_API_KEY_ANDA_DI_SINI"
+# ===============================================
+Simpan dan keluar (di nano tekan Ctrl + O, Enter, lalu Ctrl + X).
+
+### 5. Jalankan Bot
+​Uji coba jalankan bot secara langsung:
+```bash
+python3 Market.py
+
